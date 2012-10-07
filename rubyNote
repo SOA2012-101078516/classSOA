@@ -1,0 +1,61 @@
+".reverse	//reverse string "Yeni"
+		//..reverse 40....."string"..
+
+"yen".length	//3
+
+"yen"*5
+=> "yenyenyenyenyen"	
+
+[]	//empty list
+
+[1,3].max	//find max in array
+=> 3	
+
+ticket = [1,2,3]	//create an array, //ticket is "variable"
+=> [1, 2, 3]
+Success!
+
+> ticket	//type ticket
+=> [1, 2, 3]
+
+ticket.sort	//sort method
+=> [1, 2, 3]	//the ticket variable is not changed
+
+
+# print poem, swap by using []
+
+print poem
+=> "My toast has flown from my hand
+And my toast has gone to the moon.
+But when I saw it on television,
+Planting our flag on Halley's comet,
+More still did I want to eat it."
+Success!
+
+> poem['toas-t'] = 'hone-ydew'
+=> "honeydew"
+Success!
+
+> print poem
+=> "My honeydew has flown from my hand
+And my toast has gone to the moon.
+But when I saw it on television,
+Planting our flag on Halley's comet,
+More still did I want to eat it."
+
+//poem ... reverse
+
+poem.rever-se
+=> ".ti tae ot tnaw I did llits eroM
+,temoc s'yellaH no galf ruo gnitnalP
+,noisivelet no ti was I nehw tuB
+.noom eht ot enog sah tsaot ym dnA
+dnah ym morf nwolf sah wedyenoh yM"
+
+#length
+the length method works on strings, list and hashes. 
+
+Blocks are always attached to methods. 
+Like the times method, which takes the block and runs the code over and over.
+ex: 5.times {print "string1"}
+
